@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-right {
+    height: 50vw;
+    min-height: 260px;
+  }
+  .hero-right::before {
+    background: linear-gradient(to bottom, var(--dark) 0%, transparent 20%);
+  }
+  .hero-left {
+    padding: 7rem 1.5rem 3rem;
+  }
+  nav ul {
+    display: none;
+  }
+  .features-inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .hero-stats {
+    gap: 1.5rem;
+  }
+}
