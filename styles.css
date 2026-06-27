@@ -1,11 +1,11 @@
 
-@import url('styles/base.css');
-@import url('styles/nav.css');
-@import url('styles/hero.css');
-@import url('styles/unidades.css');
-@import url('styles/servicos.css');
-@import url('styles/diferenciais.css');
-@import url('styles/depoimentos.css');
-@import url('styles/cta.css');
-@import url('styles/footer.css');
-@import url('styles/responsive.css');
+@import url('./styles/base.css');
+@import url('./styles/nav.css');
+@import url('./styles/hero.css');
+@import url('./styles/unidades.css');
+@import url('./styles/servicos.css');
+@import url('./styles/diferenciais.css');
+@import url('./styles/depoimentos.css');
+@import url('./styles/cta.css');
+@import url('./styles/footer.css');
+@import url('./styles/responsive.css');
