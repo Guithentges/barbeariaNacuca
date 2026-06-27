@@ -10,18 +10,19 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  background: #0D0D0D;
+  background: #000000;
   backdrop-filter: none;
   border-bottom: 1px solid var(--border);
 }
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   height: 50px;
   flex-shrink: 0;
   min-width: 0;
   overflow: hidden;
+  width: 25%;
 }
 .img-logo {
   display: block;
@@ -39,6 +40,7 @@ nav ul {
   flex: 1 1 auto;
   margin: 0;
   padding: 0;
+  width: 50%;
 }
 nav ul a {
   text-decoration: none;
@@ -50,6 +52,13 @@ nav ul a {
 }
 nav ul a:hover {
   color: var(--gold);
+}
+.nav-cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-shrink: 0;
+  width: 25%;
 }
 .nav-cta {
   background: var(--gold);
